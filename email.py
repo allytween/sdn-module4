@@ -5,6 +5,7 @@ a list and prints the list.
 
 """
 
+# adding comments for Lab 4:
 # creating an empty list named addresses
 addresses = []
 
@@ -46,7 +47,7 @@ while more == "y":
         # if the user gave us any other input (garbage
         # input in our case), we will kindly ask them
         # again to choose either y or n, and the
-        # main loop will start over again 
+        # main loop will start over again
         else:
             more = input("Please enter a y or n: ")
 
